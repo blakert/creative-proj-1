@@ -1,10 +1,48 @@
+header {
+  width:100%;
+  background: white;
+  display: flex;
+  flex-direction: row;
+    border-bottom: 1px solid #C6C8CA;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
+  font-family: 'Poppins', sans-serif;
+}
+
+footer {
+  display: flex;
+  align-items: center;
+  height: 80px;
+  background: white;
+  border-top: 2px solid #C6C8CA;
+  color: #E51D66;
+  vertical-align: middle;
+}
+
+footer p {
+  margin-left: 30px;
+  font-weight: lighter;
+}
+
 .bg-light {
   background-color: white !important;
 }
 
 .navbar-brand {
   font-size: large;
-  font-weight:bold;
+  font-weight: bold;
+}
+
+nav {
+
+  width: 100%;
+  max-width: 600px;
 }
 
 .my-btn {
@@ -12,16 +50,22 @@
   background-color: white;
   border-color: #E5346A;
 }
+
 .my-btn a {
   color: inherit;
-  text-decoration:none;
+  text-decoration: none;
 }
+
 .my-btn a :hover {
-  text-decoration:none;
+  text-decoration: none;
 }
 
 .btn:hover {
   color: white;
   background-color: #E5346A;
   border-color: #E5346A;
+}
+
+input :focus {
+  outline: 2px #E5346A;
 }

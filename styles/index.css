@@ -4,15 +4,14 @@ body {
   display: flex;
   flex-direction: column;
   height: 100vh;
+  font-family: 'Poppins', sans-serif;
 }
 
 header {
-  height: 80px;
+
   background: white;
   display: flex;
   flex-direction: row;
-  border-bottom: 1px solid #C6C8CA;
-  font-family: 'Poppins', sans-serif;
 }
 
 footer {
