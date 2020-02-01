@@ -12,10 +12,30 @@
 }
 
 .input {
-  margin-left:5px;
+  margin-left:10px;
   margin-right:5px;
   display:inline-block;
   float:right;
+}
+
+
+@media screen and (max-width: 500px) {
+  .row label {
+    text-align: center;
+  }
+  .sign-in {
+    overflow: hidden;
+    top: 50%;
+    left: 50;
+    max-height: 700px;
+    flex-direction: column;
+    box-shadow: 3px 3px 5px 6px #ccc;
+    display: flex;
+    margin-top: 45px;
+  }
+  h1 {
+    font-size: xx-large;
+  }
 }
 /* .row input {
   margin-left: 5px;
