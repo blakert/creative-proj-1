@@ -8,7 +8,6 @@ body {
 }
 
 header {
-
   background: white;
   display: flex;
   flex-direction: row;
@@ -118,7 +117,7 @@ footer p {
   color: white;
 }
 
- .flavor-text {
+.flavor-text {
   margin-left: 25px;
 }
 
@@ -133,9 +132,8 @@ footer p {
 }
 
 .book-of-week {
-      font-size: 25pt;
+  font-size: 25pt;
 }
-
 
 .book-cover {
   height: 600px;
@@ -158,10 +156,12 @@ footer p {
     margin-top: 20px;
     margin-bottom: 25px;
   }
+
   .main-message {
     font-size: 25pt;
   }
+
   .content {
-      flex-direction: column;
+    flex-direction: column;
   }
 }
